@@ -1,3 +1,29 @@
-h1 {
-  color: red !important;
+body.container-fluid {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+}
+.hero-img {
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  height: 60vh;
+}
+.hero-img h1 {
+  font-weight: 900;  
+  color: #fff;
+}
+.btn-primary {
+  background-color: #1746B3;
+  border: 0;
+  font-weight: 300;
+}
+
+.opening__content {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 96px;
+  }
 }

@@ -4,59 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/fontawesome-free-5.13.0-web/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Agencia Creativa</title>
 </head>
-<body>
-  <!-- menu -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      <strong>Agencia</strong> Creativa
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">¿Quienes somos?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portafolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>                
-      </ul>
-      <ul class="navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com" target="_blank">
-            <i class="fas fa-smile"></i>
-          </i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.youtube.com" target="_blank">
-          <i class="fas fa-smile"></i>
-        </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com" target="_blank">
+<body class="container-fluid">
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <strong>Agencia</strong> Creativa
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>                
+        </ul>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com" target="_blank">
+              <i class="fas fa-smile"></i>
+            </i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com" target="_blank">
             <i class="fas fa-smile"></i>
           </a>
-        </li>
-      </ul>      
-    </div>
-  </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com" target="_blank">
+              <i class="fas fa-smile"></i>
+            </a>
+          </li>
+        </ul>      
+      </div>
+    </nav> <!-- .menu -->
+
+    <!-- hero image -->
+  <div class="hero-img p-0 m-0 d-flex align-items-center">    
+      <div class="col-12 col-lg-5">
+        <h1 class="col-12">Agencia Creativa</h1>
+        <button class="btn btn-primary btn-lg">Conocenos</button>
+      </div>
+  </div><!-- .hero image -->
+
+  <!-- opening -->
+  <div class="container opening py-lg-5">
+    <div class="row">
+      <div class="opening__content col-12 col-lg-6 py-5 py-lg-0">
+        <h2>Creatividad</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu placerat erat. Aenean in massa sed velit blandit dignissim. Etiam laoreet nisl vitae ipsum finibus feugiat. </p>
+      </div>  
+      <div class="features col-12 col-lg-6 pb-5 pb-lg-0">
+        <div class="row">
+          <div class="feature__item col-4">
+            <img class="img-fluid" src="assets/img/icon-1.svg" alt="Feature 1">
+          </div>
+          <div class="feature__item col-4">
+            <img class="img-fluid"src="assets/img/icon-2.svg" alt="Feature 2">
+          </div>
+          <div class="feature__item col-4">
+            <img class="img-fluid"src="assets/img/icon-3.svg" alt="Feature 3">
+          </div>
+        </div>          
+      </div>        
+    </div> 
+  </div><!-- .opening -->     
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
