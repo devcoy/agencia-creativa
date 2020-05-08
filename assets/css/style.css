@@ -50,11 +50,32 @@ h2 {
   color: #fff;
 
 }
-.card-body{
+.card-body, .contact p {
   font-weight: 300;
   font-size: 16px;
   color: #0d0d0d;
 }
+
+.contact {
+  background-color: #76B30E;
+  background-position: center;
+}
+.contact .form-control {
+  background-color: transparent;
+  
+  border: 0.5px solid #fff;
+  color: #fff;
+}
+.contact .form-control::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+.btn-send {
+  background-color: #FF4821 !important;
+  border: 0 !important;
+}
+
+
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 96px;
