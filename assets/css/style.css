@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
   font-weight: 800;
-  color: #0d0d0d;
+  color: #FF4821;
 }
 .hero-img {
   background-image: url('../img/hero.jpg');
@@ -34,7 +34,27 @@ h2 {
   margin: 0;
 }
 
+.portfolio .card-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #1746B3;
+}
+.portfolio .card {
+  border: 0;
+}
+.card__tag {
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #76B30E;
+  padding: 5px 10px;
+  color: #fff;
 
+}
+.card-body{
+  font-weight: 300;
+  font-size: 16px;
+  color: #0d0d0d;
+}
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 96px;
