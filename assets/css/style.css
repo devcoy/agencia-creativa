@@ -71,7 +71,7 @@ nav.navbar .nav-item a.nav-link:hover {
 }
 
 .contact {
-  background-color: #76B30E;
+  background-color: #17A7B3;
   background-position: center;
 }
 .contact .form-control {
@@ -82,7 +82,7 @@ nav.navbar .nav-item a.nav-link:hover {
 }
 .contact .form-control::placeholder {
   color: #fff;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .btn-send {
   background-color: #FF4821 !important;
@@ -98,9 +98,10 @@ footer li {
   list-style: none;
   line-height: 30px;
 }
-.services__item a {
+.services__item a , .footer__contact-item a{
+  font-weight: 300;
   font-size: 16px;
-  color: #1746B3;
+  color: #0d0d0d;
 }
 
 .footer__contact-item-icon img {
