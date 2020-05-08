@@ -5,15 +5,20 @@ body.container-fluid {
 section {
   margin: 50px 0px;
 }
+h1 {
+  font-weight: 900;  
+  color: #fff;
+}
+h2 {
+  font-weight: 800;
+  color: #0d0d0d;
+}
 .hero-img {
   background-image: url('../img/hero.jpg');
   background-position: center;
   height: 60vh;
 }
-.hero-img h1 {
-  font-weight: 900;  
-  color: #fff;
-}
+
 .btn-primary {
   background-color: #1746B3;
   border: 0;
@@ -26,19 +31,15 @@ section {
 }
 
 .images {
-  height: 500px;
   margin: 0;
 }
-.images__item {
-  max-height: 100%;
-}
-.images__item img {
-  width: 100%;
-  height: -webkit-fill-available;
-}
+
 
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 96px;
+  }
+  h2 {
+    font-size: 48px;
   }
 }
