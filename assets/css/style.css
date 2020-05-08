@@ -14,6 +14,19 @@ h2 {
   font-weight: 800;
   color: #FF4821;
 }
+
+nav.navbar .nav-item a.nav-link {
+  color: #FF4821;  
+}
+nav.navbar .nav-item a.nav-link:hover {
+  color: #FF4821;
+  opacity: 0.8;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+  background-color: #FF4821;
+  color: #fff;
+  opacity: 1;
+}
 .hero-img {
   background-image: url('../img/hero.jpg');
   background-position: center;
