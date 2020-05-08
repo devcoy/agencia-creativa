@@ -1,6 +1,7 @@
 body.container-fluid {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
+  background-color: #F9FAFB;
 }
 section {
   margin: 50px 0px;
@@ -50,7 +51,7 @@ h2 {
   color: #fff;
 
 }
-.card-body, .contact p {
+.card-body, .contact p, footer p {
   font-weight: 300;
   font-size: 16px;
   color: #0d0d0d;
@@ -73,6 +74,24 @@ h2 {
 .btn-send {
   background-color: #FF4821 !important;
   border: 0 !important;
+}
+
+footer h3 {
+  color: #FF4821;
+  font-weight: 600;
+  font-size: 22px;
+}
+footer li {
+  list-style: none;
+  line-height: 30px;
+}
+.services__item a {
+  font-size: 16px;
+  color: #1746B3;
+}
+
+.footer__contact-item-icon img {
+  max-width: 20px;
 }
 
 
